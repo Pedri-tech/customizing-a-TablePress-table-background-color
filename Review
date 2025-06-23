@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TablePress Example</title>
+  <link rel="stylesheet" href="custom-style.css">
+</head>
+<body>
+  <table class="tablepress">
+    <thead>
+      <tr><th>Name</th><th>Score</th><th>Status</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Alice</td><td>85</td><td>Passed</td></tr>
+      <tr><td>Bob</td><td>70</td><td>Passed</td></tr>
+      <tr><td>Carol</td><td>55</td><td>Failed</td></tr>
+    </tbody>
+  </table>
+</body>
+</html>
