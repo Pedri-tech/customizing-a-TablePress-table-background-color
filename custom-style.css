@@ -1,0 +1,25 @@
+/* Targets all TablePress tables */
+.tablepress {
+  background-color: #f2f9ff; /* Light blue */
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Targets table header */
+.tablepress thead th {
+  background-color: #0073aa;
+  color: white;
+  padding: 10px;
+}
+
+/* Targets table rows */
+.tablepress tbody td {
+  background-color: #ffffff;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Alternate row color */
+.tablepress tbody tr:nth-child(even) td {
+  background-color: #eaf4ff;
+}
